@@ -1,8 +1,11 @@
-import logo from './logo.svg';
+import 'bulma/css/bulma.min.css';
+import Invoicing from "./components/Invoicing";
 
 function App() {
   return (
-    <h1>Hello</h1>
+    <div>
+      <Invoicing />
+    </div>
   );
 }
 
