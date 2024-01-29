@@ -31,7 +31,7 @@ const routes = [
       },
       {
         name: "Account Management",
-        url: "account-managemnet",
+        url: "/account-management",
         component: <AccountManagement />
       }
     ]
@@ -39,7 +39,7 @@ const routes = [
   {
     name: "Product management",
     url: "/products",
-    components: <Products />
+    component: <Products />
   },
   {
     name: "Support",
