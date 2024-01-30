@@ -1,0 +1,39 @@
+{
+  "data": [
+      {
+          "id": 8,
+          "name": "Sally Appleseed",
+          "email": "sally@mail.com",
+          "department": "Management",
+          "employment_date": "01 Jan 2014"
+      },
+      {
+          "id": 13,
+          "name": "Dave Davis",
+          "email": "dave.davis@mail.com",
+          "department": "Management",
+          "employment_date": "07 Mar 2017"
+      },
+      {
+          "id": 11,
+          "name": "Alexis Macintosh",
+          "email": "amac@gmail.com",
+          "department": "Logistics",
+          "employment_date": "24 Apr 2020"
+      },
+      {
+          "id": 2,
+          "name": "Mark Studdart",
+          "email": "mark@studdart.co.uk",
+          "department": "Marketing",
+          "employment_date": "19 May 2016"
+      },
+      {
+          "id": 56,
+          "name": "Don Swanson",
+          "email": "d.swanson@goodbuildingcompany.com",
+          "department": "Maintenance",
+          "employment_date": "13 Feb 2018"
+      }
+  ]
+}
