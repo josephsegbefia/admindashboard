@@ -29,6 +29,9 @@ const Users = () => {
                   <tr>
                     <th>{user.id}</th>
                     <td>{user.name}</td>
+                    <td>{user.email}</td>
+                    <td>{user.department}</td>
+                    <td>{user.employment_date}</td>
                   </tr>
                 ))
               }
