@@ -32,6 +32,9 @@ const Users = () => {
                     <td>{user.email}</td>
                     <td>{user.department}</td>
                     <td>{user.employment_date}</td>
+                    <td>
+                     <Link to = {`/users/${user.id}?edited=${getEditTime()}`}>Edit</Link>
+                    </td>
                   </tr>
                 ))
               }
