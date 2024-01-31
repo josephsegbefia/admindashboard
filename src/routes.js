@@ -6,6 +6,7 @@ import Invoicing from './components/Invoicing';
 import Support from './components/Support';
 import Dashboard from  './components/Dashboard';
 import Products from './components/Products';
+import EditUser from './components/EditUser';
 
 const routes = [
   {
@@ -33,6 +34,11 @@ const routes = [
         name: "Account Management",
         url: "/account-management",
         component: <AccountManagement />
+      },
+      {
+        name: "Edit User",
+        url: '/:id',
+        component: <EditUser />
       }
     ]
   },
